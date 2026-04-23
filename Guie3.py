@@ -9,4 +9,8 @@ print ("Hola mundo xDDDDDDDD")
 =======
 #Ander es falla
 #Oscar activa las manos
+<<<<<<< HEAD
 >>>>>>> cb7b39d1a6456a0e418ae11d6b09d8c59259ef59
+=======
+>>>>>>> origin/EtuFashin
+>>>>>>> master
