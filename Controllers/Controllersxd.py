@@ -1,0 +1,49 @@
+""""
+package com.example.proyecto_agronomia_grupo5.Models;
+
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+
+public class Inventario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @EqualsAndHashCode.Include
+
+    private Integer id_inventario;
+
+    @Column(nullable = false, length = 100)
+    private String nombre;
+
+    @Column(nullable = true, length = 160)
+    private String descripcion;
+
+    @Column(nullable = false)
+    private Double stock_actual;
+
+    @Column(nullable = false)
+    private Double stock_minimo;
+
+    @Column(length = 30)
+    private String unidad_medida;
+
+    private LocalDateTime fecha_actualizacion;
+
+}
+
+
+prueba controladores
+"""
+
+print ("Hola mundo desde controladores")
