@@ -6,5 +6,4 @@ print("Hola git y github 11111")
 #Oscar pa cuando te bajas un juego pirata
 
 #Oscar es mi esclavo y no lo niega terrible
-
-#este mensaje se va a borrar en el futuro
+print("Oscar es mi esclavo y no lo niega terrible")
