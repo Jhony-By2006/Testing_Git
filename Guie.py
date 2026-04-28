@@ -7,3 +7,8 @@ print("Hola git y github 11111")
 
 #Oscar es mi esclavo y no lo niega terrible
 print("Oscar es mi esclavo y no lo niega terrible")
+
+print("Hola mundo desde Python")
+print("Hola git y github 11111")
+print("Hola mundo desde Python")
+print("Hola git y github 11111")
